@@ -27,6 +27,8 @@
     let saRPCs = [
         'https://solana-mainnet.g.alchemy.com/v2/G7k39DPfRScy8vjCFb1u8ZW20x3m0vKS', //Quicknode
 		'https://rpc.hellomoon.io/e786f9ab-21ce-4b16-abb8-8493e239ed5e', //Hello Moon
+        //'https://staratl-mainc06-2415.mainnet.rpcpool.com', //Triton
+        //'https://mainnet.helius-rpc.com/?api-key=735486d8-ae86-4d26-829c-e34a2210d119', //Helius
 	];
     let readRPCs = customReadRPCs.concat(saRPCs);
     let writeRPCs = customWriteRPCs.concat(saRPCs);
